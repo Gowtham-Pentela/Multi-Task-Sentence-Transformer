@@ -86,7 +86,7 @@ This technique allows for a single task to be given priority and to reduce catas
 Practically, fine-tuning upper layers with frozen lower layers preserves the overall knowledge in the pre-trained model while still enabling upper-layer adaptations to specific tasks. This is a good balance between efficiency in computation and learning for specific tasks. The overall idea is to freeze lower layers (general features) and unfreeze upper layers and task heads to optimize for specific tasks.
 
 ---
-### **Multi-Task Learning (MTL) Training Framework: Assumptions and Decisions**
+### Task4 **Multi-Task Learning (MTL) Training Framework: Assumptions and Decisions**
 
 Multi-Task Learning, or MTL, involves training a single model to handle several related tasks at the same time. The main advantage of this approach is that tasks can share information, which helps the model to perform better overall. Here, we'll explore key aspects of setting up MTL, focusing on **data management, how the model processes data, and how we evaluate success**.
 
